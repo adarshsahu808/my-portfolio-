@@ -1,0 +1,138 @@
+# my-portfolio-
+My first personal portfolio website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    nav {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #24242c;
+    }
+
+    nav h2 {
+      color: #a3ffbf;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .tag {
+      color: #a3ffbf;
+      border: 1px solid #345941;
+      border-radius: 30px;
+      padding: 7px 15px;
+      margin-bottom: 25px;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: 1.1;
+      letter-spacing: -2px;
+    }
+
+    .hero h1 span {
+      color: #a3ffbf;
+    }
+
+    .hero p {
+      color: #b6b6c2;
+      max-width: 540px;
+      margin: 22px 0 30px;
+    }
+
+    .button {
+      background: #a3ffbf;
+      color: #0b0b0f;
+      padding: 13px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 65px 8%;
+      border-top: 1px solid #24242c;
+    }
+
+    section h2 {
+      font-size: 30px;
+      margin-bottom: 18px;
+    }
+
+    section p {
+      color: #b6b6c2;
+      max-width: 650px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #888894;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>MyPortfolio.</h2>
+    <a href="#about">About Me ↗</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <div class="tag">✦ Welcome to my portfolio</div>
+      <h1>Hi, I'm <span>Your Name.</span></h1>
+      <p>
+        I'm a creative learner exploring web development,
+        technology and design. This is my little corner
+        of the internet.
+      </p>
+      <a class="button" href="#about">Discover More ↘</a>
+    </div>
+
+    <section id="about">
+      <h2>About Me.</h2>
+      <p>
+        I'm just getting started on my journey into web
+        development. I enjoy learning new things, building
+        creative projects and turning ideas into reality.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 My Portfolio. Built with curiosity.
+  </footer>
+</body>
+</html>
